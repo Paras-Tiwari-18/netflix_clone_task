@@ -1,0 +1,112 @@
+.logo{
+    position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+.Signin-page{
+    background: linear-gradient( rgba(2,1,2,0.3),rgba(2,1,2,1)); 
+    padding: 30px;
+}
+.Inpu-1{
+    width: 18rem;
+    height: 2.2rem;
+    margin-bottom: 0.7rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    background-color:  #3d3c38;
+    color: white;
+    font-weight: 300;
+
+}
+.Inpu-2{
+    width: 18rem;
+    height: 2.2rem;
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    background-color:  #3d3c38;
+    color: white;
+    font-weight: 300;
+
+
+}
+.sign-in-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 2rem;
+    margin-bottom: 1.2rem;
+    background-color: #e50914;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    
+}
+.phone-sign-in-button
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 2rem;
+    margin-bottom: 1.2rem;
+    background-color: #e50914;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+}
+.google-sign-in-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 2rem;
+    margin-bottom: 1.2;
+    background-color: #e50914;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+}
+button:hover {
+    background-color: rgb(193, 33, 41);
+}
+p
+{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+@media (max-width: 768px)
+{
+    .container
+    {
+        background-image: none;
+        background-color:rgba(2,1,2,1) ;
+    }
+}
