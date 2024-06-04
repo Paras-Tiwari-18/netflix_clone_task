@@ -1,2 +1,2 @@
 # netflix_clone_task
-netflix
+netflix clone task by bharat intern
